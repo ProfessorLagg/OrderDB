@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="tables\Orders.sql" />
-    <Build Include="procedures\NewOrder.sql" />
+    <Build Include="procedures\spNewOrder.sql" />
     <Build Include="tables\Items.sql" />
     <Build Include="tables\OrderItems.sql" />
   </ItemGroup>

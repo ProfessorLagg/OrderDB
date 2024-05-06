@@ -7,12 +7,12 @@ namespace OrderAPI.Controllers
 	[ApiController]
 	public class OrderController : ControllerBase
 	{
-
 		[HttpPost]
 		[Route("/new")]
 		public async Task<IActionResult> NewOrder()
 		{
-
+			// TODO Call spNewOrder and return the order id
+			throw new NotImplementedException();
 		}
 	}
 }
