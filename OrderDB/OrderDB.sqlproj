@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{8f0bcfeb-db7e-4788-8f15-098512b6fcd5}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -64,5 +64,6 @@
     <Build Include="procedures\spNewOrder.sql" />
     <Build Include="tables\Items.sql" />
     <Build Include="tables\OrderItems.sql" />
+    <Build Include="procedures\spGetOrderItems.sql" />
   </ItemGroup>
 </Project>
