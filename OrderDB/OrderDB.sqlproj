@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="tables" />
     <Folder Include="procedures" />
+    <Folder Include="data" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="tables\Orders.sql" />
@@ -65,5 +66,8 @@
     <Build Include="tables\Items.sql" />
     <Build Include="tables\OrderItems.sql" />
     <Build Include="procedures\spGetOrderItems.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="data\items.sql" />
   </ItemGroup>
 </Project>
