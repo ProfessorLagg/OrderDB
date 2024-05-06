@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "OrderDB", "OrderDB\OrderDB.sqlproj", "{8F0BCFEB-DB7E-4788-8F15-098512B6FCD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderAPI", "OrderAPI\OrderAPI.csproj", "{B2F231A2-6671-4B53-BDEA-6A9C9FD344B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F0BCFEB-DB7E-4788-8F15-098512B6FCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0BCFEB-DB7E-4788-8F15-098512B6FCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0BCFEB-DB7E-4788-8F15-098512B6FCD5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8F0BCFEB-DB7E-4788-8F15-098512B6FCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0BCFEB-DB7E-4788-8F15-098512B6FCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0BCFEB-DB7E-4788-8F15-098512B6FCD5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B2F231A2-6671-4B53-BDEA-6A9C9FD344B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F231A2-6671-4B53-BDEA-6A9C9FD344B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F231A2-6671-4B53-BDEA-6A9C9FD344B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F231A2-6671-4B53-BDEA-6A9C9FD344B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36F9CCF2-EB86-4E8A-8398-9682D776FBBD}
+	EndGlobalSection
+EndGlobal

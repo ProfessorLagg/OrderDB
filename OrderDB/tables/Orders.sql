@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Orders]
+(
+	[OrderId] INT PRIMARY KEY NOT NULL IDENTITY(1, 1),
+	[OrderStatus] SMALLINT NOT NULL DEFAULT 0
+)
